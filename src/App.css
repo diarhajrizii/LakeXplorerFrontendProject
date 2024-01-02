@@ -1,0 +1,92 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 0.875rem !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+  color: #525f7f !important;
+  text-align: left !important;
+  background-color: #1e1e2f !important;
+}
+
+#root {
+  height: 100%;
+}
+
+.input-group-text {
+  height: 100% !important;
+  width: 100% !important;
+  border-radius: 0 !important;
+}
+
+/* Lakes Page */
+.lakesContainer a {
+  text-decoration: none;
+}
+
+.lakesContainer .lakeImage {
+  height: 230px;
+  object-fit: cover;
+}
+
+/* Lake Sightings Page */
+.lakeSightingsContainer .lakeName {
+  margin-top: 20px;
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: white;
+  font-family: serif;
+}
+
+.lakeSightingsContainer .lakeSightingsCard {
+  height: 200px;
+  object-fit: cover;
+}
+
+.lakeSightingsContainer .lakeSightingsImage {
+  box-shadow: "0 4px 8px rgba(0,0,0,0.1)";
+  border-radius: 8px;
+  height: 100%;
+}
+
+.lakeSightingsContainer .lakeImage {
+  width: 100%;
+  height: auto;
+  max-height: 800px;
+}
+
+.lakeSightingsContainer .lakeDescription {
+  margin-top: 20px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: white;
+  font-family: serif;
+}
+
+/* Login Page */
+.loginContainer .emailFormGroup {
+  margin-bottom: 15px;
+}
+.loginContainer .passwordFormGroup {
+  margin-bottom: 15px;
+}
+
+/* Register Page */
+.registerContainer .userNameFormGroup {
+  margin-bottom: 15px;
+}
+
+.registerContainer .emailFormGroup {
+  margin-bottom: 15px;
+}
+
+.registerContainer .passwordFormGroup {
+  margin-bottom: 15px;
+}
